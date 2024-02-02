@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototype Pattern Example</title>
+
+
+  <style src="style.css"></style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Enter Employee Details:</h2>
+    
+    <form id="employeeForm">
+      <label for="employeeName">Name:</label>
+      <input type="text" id="employeeName" required>
+
+      <label for="employeeId">ID:</label>
+      <input type="number" id="employeeId" required>
+
+      <label for="employeeSalary">Salary:</label>
+      <input type="number" id="employeeSalary" required>
+
+      <label for="employeeDepartment">Department:</label>
+      <input type="text" id="employeeDepartment" required>
+
+      <button type="button" onclick="createEmployees()">Create Employees</button>
+    </form>
+
+    <div class="employee-container" id="originalEmployee">
+      <h3>Original entry</h3>
+      <div></div>
+    </div>
+
+    <div class="employee-container" id="clonedEmployee">
+      <h3>Cloned entry</h3>
+      <div></div>
+    </div>
+
+    <div class="employee-container" id="forDatabaseEmployee">
+      <h3>Database entry</h3>
+      <div></div>
+    </div>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .employee-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .employee-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .employee-details div {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .employee-details h3 {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+  }
